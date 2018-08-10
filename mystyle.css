@@ -1,0 +1,15 @@
+
+body {
+    margin-left: 20px
+}
+h1 {
+    color: whitesmoke;
+    margin-top: 80px;
+    text-align: center;
+}
+p{
+  font-family: 'Century Gothic';
+  font-size: 30px;
+  color: whitesmoke;
+}
+  /*<button type="button" style="height: 50px; width: 256px" onclick="window.location.href='snakegame.html'"><font size="5" face="century gothic" color="whitesmoke">Let's Go!</font></button>*/

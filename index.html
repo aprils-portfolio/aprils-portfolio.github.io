@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>
+    April's Portfolio
+  </title>
+  <link href='https://fonts.googleapis.com/css?family=Bungee Hairline' rel='stylesheet'>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111
+}
+body{
+  background-image: url("beach.jpg");
+  background-color: #505050;
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bungee Hairline';font-size: 35px;
+}
+.button {
+  border-radius: 4px;
+  background-color: whitesmoke;
+  border: none;
+  color: teal;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1 {border-radius: 12px;}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="Home.html">Home</a></li>
+    <li><a href="Portfolio.html">Porfolio</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Forum.html">Forum</a></li>
+</ul>
+<h1> Welcome to my WPI Website!</h1>
+<center> <button type="button" onclick="window.location.href='Home.html'" class="button button1"><font size="5" face="century gothic" color="teal"><span>Let's Go!</span></font></center>
+<br/>
+</body>
+</html>

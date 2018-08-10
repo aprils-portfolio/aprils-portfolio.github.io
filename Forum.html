@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>
+    April's Portfolio
+  </title>
+  <link href='https://fonts.googleapis.com/css?family=Bungee Hairline' rel='stylesheet'>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111
+}
+body{
+  background: #505050;
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bungee Hairline';font-size: 35px;
+}
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: teal;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.button1 {border-radius: 12px;}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="Home.html">Home</a></li>
+    <li><a href="Portfolio.html">Porfolio</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Forum.html">Forum</a></li>
+</ul>
+<h1> Forum</h1>
+<center><p><font size="5" face="century gothic" color="teal">Chat directly with the creator and receive special announcements!
+<br/>
+<a href="https://www.wpi.edu/~ashi2/forumchat.html">
+Don't have access? Continue as guest.
+</a>
+</font></p></center>
+<form>
+  <center><table>
+    <tr>
+      <td>
+  <font size="5" face="Bungee Hairline" color="whitesmoke">Username:</font>
+</td>
+<td>
+    <input type="text" name="username" id="username">
+</td>
+</tr>
+<tr>
+  <td>
+  <font size="5" face="Bungee Hairline" color="whitesmoke">Password:
+</td>
+<td>
+  <input type="password" name="password" id="password">
+</td>
+</tr>
+</center></table>
+</font>
+</form>
+
+<center> <button type="button" class="button button1" onclick= "check()"><font size="5" face="century gothic" color="teal">Sign In</font></center>
+<br/>
+
+<script>
+function check(){
+if (document.getElementById("username").value=="access"){
+  if (document.getElementById("password").value=="1234"){
+    window.location = 'forumchat.html'
+  }else{
+      alert("Wrong username or password!")
+  }
+}else{
+  alert("Wrong username or password!")
+}
+}
+
+</script>
+</body>
+</html>
